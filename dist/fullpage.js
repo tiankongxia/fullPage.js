@@ -1199,7 +1199,7 @@
                 var screen_mid = currentScroll + (getWindowHeight() / 2.0);
                 var isAtBottom = $body.offsetHeight - getWindowHeight() === currentScroll;
                 var sections =  $(SECTION_SEL);
-
+                alert('sroll');
                 //when using `auto-height` for a small last section it won't be centered in the viewport
                 if(isAtBottom){
                     visibleSectionIndex = sections.length - 1;
